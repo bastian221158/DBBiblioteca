@@ -1,4 +1,4 @@
-# 📜 README - Invocando la Base de Datos "Bibliotheca Obscura" 🕯️✨
+# 📜 Invocando la Base de Datos "Bibliotheca Obscura" 🕯️✨
 
 ---
 
