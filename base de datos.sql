@@ -1,3 +1,7 @@
+DROP DATABASE BibliotecaArcana;
+CREATE DATABASE BibliotecaArcana;
+USE BibliotecaArcana;
+
 CREATE TABLE SeccionEsoterica (
     id_seccion INT AUTO_INCREMENT PRIMARY KEY,
     nombre VARCHAR(100)
@@ -38,8 +42,6 @@ CREATE TABLE PactoDetalle (
     FOREIGN KEY (id_conjuro) REFERENCES ConjuroPrestamo(id_conjuro),
     FOREIGN KEY (id_tomo) REFERENCES TomoArcano(id_tomo)
 );
-
-
 
 --Función para ver cuantos prestamos hay activos
 DELIMITER //
